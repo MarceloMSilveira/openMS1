@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "openMS1_backend": {
+      "main": "src/openMS1_backend/main.mo",
+      "type": "motoko"
+    },
+    "openMS1_frontend": {
+      "dependencies": [
+        "openMS1_backend"
+      ],
+      "source": [
+        "src/openMS1_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "openMS1_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
