@@ -13,6 +13,10 @@
       ],
       "type": "assets",
       "workspace": "openMS1_frontend"
+    },
+    "nft": {
+      "main":"src/NFT/nft.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
